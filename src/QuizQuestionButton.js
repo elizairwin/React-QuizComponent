@@ -4,7 +4,7 @@ class QuizQuestionButton extends Component {
     render() {
         return (
             <li>
-                <button>{this.button_text}</button>
+                <button>{this.orops.button_text}</button>
             </li>
         )
      }
