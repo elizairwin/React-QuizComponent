@@ -12,7 +12,7 @@ class Quiz extends Component {
       return (
         <div>
             <div className="QuizQuestion">
-            {this.props = quizData.quiz_questions[0].instruction_text}
+            {quizData.quiz_questions[0].instruction_text}
             </div>
         </div>
       )
